@@ -132,3 +132,7 @@ ALTER TABLE highway RENAME COLUMN endsat to endsOn;
 ALTER TABLE highway RENAME COLUMN Placespasses to PlacesConnect;
 ALTER TABLE highway RENAME COLUMN vehiclesPassing to noOfVehiclespass;
 ALTER TABLE highway DROP COLUMN nameEndingAlphabet;
+ SELECT COUNT(*)  FROM highway;
+ 
+ 
+
